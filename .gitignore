@@ -1,4 +1,8 @@
 #venv
+
 venv
 .idea
 FFA/FFA/__pycache__/
+Employee/__pycache__/
+Person/__pycache__/
+modulo.py

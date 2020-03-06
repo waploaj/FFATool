@@ -1,9 +1,9 @@
-from .models import Employee
+from .models import OsposEmployees
 from rest_framework import serializers
 
 class Employeeserialixer(serializers.ModelSerializer):
     class Meta:
-        model = Employee
+        model = OsposEmployees
         fields = (
             'username','person'
         )
